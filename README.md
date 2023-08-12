@@ -1,5 +1,8 @@
 # 🌟 需求文档 🌟
 
+![Demo GIF](https://jackal-u-dance.oss-cn-beijing.aliyuncs.com/demo.gif)
+
+
 ## 👋 greetings！！！～～～
 
 你好，我们是来自中科院自动化所群体博弈智能实验室的 cogniMatrix (认知矩阵) 团队，
