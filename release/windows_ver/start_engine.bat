@@ -5,6 +5,10 @@ setlocal enabledelayedexpansion
 set PYTHON_EXE_PATH="python_lib/python-3.9.6-embed-amd64/python.exe"
 set PYTHON_SCRIPT_PATH="code/npc_engine/src/engine.py"
 
+:: 定义要添加到PYTHONPATH的路径
+set CODE_PATH="code/"
+set NPC_ENGINE_SRC_PATH="code/npc_engine/src/"
+
 :: 检查Python解释器是否存在
 if not exist %PYTHON_EXE_PATH% (
     echo Python interpreter not found at %PYTHON_EXE_PATH%.
@@ -16,6 +20,9 @@ if not exist %PYTHON_SCRIPT_PATH% (
     echo Python script not found at %PYTHON_SCRIPT_PATH%.
     goto waitForExit
 )
+
+:: 添加路径到PYTHONPATH
+set PYTHONPATH=%CODE_PATH%;%NPC_ENGINE_SRC_PATH%;%PYTHONPATH%
 
 :: 启动Python脚本
 echo Starting Python script...
