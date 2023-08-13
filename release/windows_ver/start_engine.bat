@@ -3,7 +3,7 @@ setlocal enabledelayedexpansion
 
 :: 定义Python解释器和脚本的路径
 set PYTHON_EXE_PATH="python_lib/python-3.9.6-embed-amd64/python.exe"
-set PYTHON_SCRIPT_PATH="code/npc_engine/src/engine.py"
+set PYTHON_SCRIPT_PATH="code/npc_engine/src/main.py"
 
 :: 定义要添加到PYTHONPATH的路径
 set CODE_PATH="code/"
