@@ -1,4 +1,4 @@
-# 🌟 需求文档 🌟
+# 🌟 项目文档 🌟
 
 ![Demo GIF](https://jackal-u-dance.oss-cn-beijing.aliyuncs.com/demo.gif)
 
@@ -13,7 +13,7 @@
 
 ❗️ 使用的时候发现问题 issue 请反馈至 QQ 群："823027863" 或提issue.
 
-## 目前核心开发需求
+## 你可做的事情
 调用 npc-engine 做一个 Unity2D 小游戏场景，通过发送 UDP 包的形式让 NPC 动起来，形成一个有张力的多人小镇。
 
 参考项目代码⚠️：[ai_rpg 项目](https://github.com/casia22/ai_rpg/tree/MattCao)
