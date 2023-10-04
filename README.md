@@ -13,32 +13,6 @@ NPC-Engine 是一个由 CogniMatrix™️ 提供的游戏AI引擎，它赋予游
 ## 📦 用户安装
 本项目免安装，直接在发行版中运行start_engine.bat脚本就可以
 
-## 📦 开发者安装
-本项目可以通过两种方式安装依赖，使用 Poetry 或者使用 pip。
-
-### 使用 Poetry
-
-首先，你需要安装 Poetry。你可以使用以下命令安装 Poetry：
-
-```bash
-curl -sSL https://install.python-poetry.org | python - # 安装 Poetry
-poetry export -f requirements.txt --without-hashes -o requirements.txt # 生成 requirements.txt(提供给pip使用)
-```
-
-然后，你可以使用以下命令在项目目录中安装依赖：
-
-```bash
-poetry install
-```
-
-### 使用 pip
-
-如果你更倾向于使用 pip，你可以使用以下命令安装依赖：
-
-```bash
-pip install -r requirements.txt
-```
-
 ## 项目进展
 
 ### 🚀 开发进度：
